@@ -1,0 +1,11 @@
+# Wikipedia XML dump files (too large for GitHub)
+*.xml
+*.xml.gz
+enwiki-*/
+
+# Parquet data files (too large for GitHub)
+output/*.parquet
+
+# Python
+__pycache__/
+*.pyc
