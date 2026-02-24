@@ -108,35 +108,20 @@ The 2020 election showed the largest modern post-election spike at +60.2%, consi
 
 ### Seasonality
 
-  All-time calendar month totals and averages (2001-2026, 26 years):
-    Month            Total    Avg/Year
-    January        252,686       9,719
-    February       239,578       9,215
-    March          228,375       8,784
-    April          210,651       8,102
-    May            225,087       8,657
-    June           170,424       6,555
-    July           187,399       7,208
-    August         193,693       7,450
-    September      207,384       7,976
-    October        264,621      10,178
-    November       270,635      10,409
-    December       233,469       8,980
-
-  Post-2008 calendar month totals and averages (2008-2026, 19 years):
-    Month            Total    Avg/Year
-    January        162,201       8,537
-    February       149,712       7,880
-    March          140,336       7,386
-    April          121,882       6,415
-    May            126,436       6,655
-    June            96,251       5,066
-    July            93,913       4,943
-    August         102,920       5,417
-    September      106,075       5,583
-    October        130,612       6,874
-    November       133,905       7,048
-    December       109,773       5,778
+| Month | All-Time Total | All-Time Avg/Year | Post-2008 Total | Post-2008 Avg/Year |
+|---|---|---|---|---|
+| January | 252,686 | 9,719 | 162,201 | 8,537 |
+| February | 239,578 | 9,215 | 149,712 | 7,880 |
+| March | 228,375 | 8,784 | 140,336 | 7,386 |
+| April | 210,651 | 8,102 | 121,882 | 6,415 |
+| May | 225,087 | 8,657 | 126,436 | 6,655 |
+| June | 170,424 | 6,555 | 96,251 | 5,066 |
+| July | 187,399 | 7,208 | 93,913 | 4,943 |
+| August | 193,693 | 7,450 | 102,920 | 5,417 |
+| September | 207,384 | 7,976 | 106,075 | 5,583 |
+| October | 264,621 | 10,178 | 130,612 | 6,874 |
+| November | 270,635 | 10,409 | 133,905 | 7,048 |
+| December | 233,469 | 8,980 | 109,773 | 5,778 |
 
 All-time, November (270,635 total) and October (264,621) are the highest-vandalism months, aligning directly with election season. Summer months are consistently the lowest, with June averaging 37% less vandalism than November. Interestingly after 2008, the months of January and February saw the highest vandalism averages. This seasonal pattern is consistent with academic calendars -- student-driven editing and vandalizing drops during summer break and peaks during the school year.
 
