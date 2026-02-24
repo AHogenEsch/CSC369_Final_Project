@@ -26,7 +26,7 @@ import time
 import xml.etree.ElementTree as ET
 import builtins
 
-# Force all print() calls to flush immediately (needed for background monitoring)
+# Force all print() calls to flush immediately (in order to monitor progress)
 _original_print = builtins.print
 def print(*args, **kwargs):
     kwargs.setdefault("flush", True)
@@ -66,7 +66,7 @@ def load_title_set(csv_path: str) -> set[str]:
 
 
 def open_xml(path: str):
-    """Open an XML file, transparently handling .gz compression."""
+    """Open an XML file, handling .gz compression."""
     if path.endswith(".gz"):
         return gzip.open(path, "rb")
     return open(path, "rb")

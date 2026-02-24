@@ -1,0 +1,216 @@
+
+======================================================================
+  PARTY ANALYSIS
+======================================================================
+
+  Vandalism count by party:
+        Democrat:  801,987 ( 29.9%)
+      Republican: 1,320,865 ( 49.2%)
+     Libertarian:    8,243 (  0.3%)
+           Other:  552,907 ( 20.6%)
+
+  Which party receives the MOST vandalism?  Republican (1,320,865)
+  Which party receives the LEAST vandalism? Libertarian (8,243)
+
+  Average restoration time by party:
+           Party            Mean          Median
+        Democrat      5426.2 hrs        60.2 hrs
+      Republican      7272.5 hrs       643.0 hrs
+     Libertarian     12640.1 hrs       469.4 hrs
+           Other      4717.9 hrs        91.8 hrs
+
+======================================================================
+  TEMPORAL ANALYSIS
+======================================================================
+
+  Top 5 months with most vandalism:
+    1. 2005-10: 62,388 vandalism edits
+    2. 2005-12: 62,300 vandalism edits
+    3. 2005-11: 61,025 vandalism edits
+    4. 2005-07: 48,658 vandalism edits
+    5. 2005-09: 44,132 vandalism edits
+
+  Top 5 weeks with most vandalism:
+    1. 2005-11-28/2005-12-04: 21,856 vandalism edits
+    2. 2005-10-17/2005-10-23: 17,416 vandalism edits
+    3. 2005-12-05/2005-12-11: 17,041 vandalism edits
+    4. 2005-12-12/2005-12-18: 16,787 vandalism edits
+    5. 2005-10-24/2005-10-30: 16,262 vandalism edits
+
+  Longest gap between consecutive vandalism events:
+    251 days (251 days 00:55:05)
+    From: 2001-03-07 22:02:41+00:00
+    To:   2001-11-13 22:57:46+00:00
+
+  Election proximity analysis:
+  (Comparing vandalism in 3 months before vs. 3 months after each election)
+    2002 election (Nov 05): before=69, after=147, change=+113.0%
+    2004 election (Nov 02): before=13,000, after=36,424, change=+180.2%
+    2006 election (Nov 07): before=100,989, after=108,152, change=+7.1%
+    2008 election (Nov 04): before=65,036, after=63,311, change=-2.7%
+    2010 election (Nov 02): before=28,287, after=30,636, change=+8.3%
+    2012 election (Nov 06): before=18,472, after=19,405, change=+5.1%
+    2014 election (Nov 04): before=13,984, after=14,699, change=+5.1%
+    2016 election (Nov 08): before=17,021, after=23,350, change=+37.2%
+    2018 election (Nov 06): before=14,950, after=17,850, change=+19.4%
+    2020 election (Nov 03): before=14,899, after=23,861, change=+60.2%
+    2022 election (Nov 08): before=10,655, after=14,395, change=+35.1%
+    2024 election (Nov 05): before=9,663, after=13,194, change=+36.5%
+
+======================================================================
+  PER-POLITICIAN ANALYSIS
+======================================================================
+
+  Top 10 most vandalized politicians:
+     1. George W. Bush (Republican): 421,884 vandalism edits
+     2. Donald Trump (Republican): 49,296 vandalism edits
+     3. Barack Obama (Democrat): 41,159 vandalism edits
+     4. John Kerry (Democrat): 30,642 vandalism edits
+     5. Republican Party (United States) (Republican): 29,017 vandalism edits
+     6. Ronald Reagan (Republican): 28,490 vandalism edits
+     7. Kane (wrestler) (Republican): 28,244 vandalism edits
+     8. Joseph Smith (Other): 26,554 vandalism edits
+     9. George Washington (Other): 24,823 vandalism edits
+    10. Bill Clinton (Democrat): 24,393 vandalism edits
+
+  Top 10 least vandalized (with at least 1 event):
+     1. Nancy Shepherd (Other): 1 vandalism edits
+     2. Nancy Ross (politician) (Other): 1 vandalism edits
+     3. Nancy Rodrigues (Other): 1 vandalism edits
+     4. Jonathan Kearsley (Democrat): 1 vandalism edits
+     5. Jonathan Hunt (Vermont congressman) (Republican): 1 vandalism edits
+     6. Jonathan Healy (politician) (Republican): 1 vandalism edits
+     7. Ángel M. Rodríguez Otero (Democrat): 1 vandalism edits
+     8. Ángel Chayanne Martínez (Other): 1 vandalism edits
+     9. A. DeWade Langley (Other): 1 vandalism edits
+    10. Zon Eastes (Democrat): 1 vandalism edits
+
+  Top 5 FASTEST median restoration times (>= 5 events):
+    1. Gordon Lau: 0.0 hours median (5 events)
+    2. Anthony Como: 0.0 hours median (5 events)
+    3. Earle Cabell: 0.0 hours median (5 events)
+    4. John Paterson (New York politician): 0.0 hours median (5 events)
+    5. Charles L. Butts: 0.0 hours median (5 events)
+
+  Top 5 SLOWEST median restoration times (>= 5 events):
+    1. Oramel H. Simpson: 115728.5 hours median (97 events)
+    2. Mike Huckabee: 75602.8 hours median (5,971 events)
+    3. Robert J. Huber: 68500.9 hours median (70 events)
+    4. James Geddes (engineer): 65753.4 hours median (114 events)
+    5. Crawford Martin: 61853.1 hours median (61 events)
+
+======================================================================
+  DETECTION METHOD BREAKDOWN
+======================================================================
+
+    sha1_revert: 1,816,910 (67.7%)
+    both: 867,092 (32.3%)
+
+  Anonymous vandalism:  1,222,293 (45.5%)
+  Registered vandalism: 1,461,236 (54.4%)
+
+======================================================================
+  POST-2008 ANALYSIS (2008-01-01 onward)
+======================================================================
+
+  Vandalism events from 2008 onward: 1,474,016 (excluded 1,209,986 pre-2008 events)
+
+  Vandalism count by party (2008+):
+        Democrat:  509,970 ( 34.6%)
+      Republican:  612,083 ( 41.5%)
+     Libertarian:    6,999 (  0.5%)
+           Other:  344,964 ( 23.4%)
+
+  Most vandalized party (2008+):  Republican (612,083)
+  Least vandalized party (2008+): Libertarian (6,999)
+
+  Restoration time by party (2008+):
+           Party            Mean          Median
+        Democrat      6095.2 hrs         7.5 hrs
+      Republican      9619.1 hrs        11.5 hrs
+     Libertarian     14112.3 hrs      1005.4 hrs
+           Other      5510.7 hrs        10.2 hrs
+
+  Top 10 most vandalized (2008+):
+     1. Donald Trump (Republican): 42,205
+     2. Barack Obama (Democrat): 32,110
+     3. Joseph Smith (Other): 20,715
+     4. Kane (wrestler) (Republican): 19,266
+     5. Joe Biden (Democrat): 13,975
+     6. Dwight D. Eisenhower (Republican): 13,710
+     7. Republican Party (United States) (Republican): 13,239
+     8. Ronald Reagan (Republican): 13,045
+     9. George W. Bush (Republican): 12,587
+    10. Democratic Party (United States) (Democrat): 11,577
+
+  Election proximity (2008+):
+    2008 (Nov 04): before=65,036, after=63,311, change=-2.7%
+    2010 (Nov 02): before=28,287, after=30,636, change=+8.3%
+    2012 (Nov 06): before=18,472, after=19,405, change=+5.1%
+    2014 (Nov 04): before=13,984, after=14,699, change=+5.1%
+    2016 (Nov 08): before=17,021, after=23,350, change=+37.2%
+    2018 (Nov 06): before=14,950, after=17,850, change=+19.4%
+    2020 (Nov 03): before=14,899, after=23,861, change=+60.2%
+    2022 (Nov 08): before=10,655, after=14,395, change=+35.1%
+    2024 (Nov 05): before=9,663, after=13,194, change=+36.5%
+
+======================================================================
+  NORMALIZED PARTY ANALYSIS
+======================================================================
+
+  Number of politicians (Wikipedia articles) per party:
+        Democrat: 28,595
+      Republican: 28,320
+     Libertarian:     90
+           Other: 18,535
+
+  Vandalism per party -- raw vs. normalized (all time):
+           Party  Articles   Vandalism   Per Article  % Articles   % Vandalism
+        Democrat    28,595     801,987          28.0       37.9%         29.9%
+      Republican    28,320   1,320,865          46.6       37.5%         49.2%
+     Libertarian        90       8,243          91.6        0.1%          0.3%
+           Other    18,535     552,907          29.8       24.5%         20.6%
+
+  Vandalism per party -- raw vs. normalized (2008+ only):
+           Party  Articles   Vandalism   Per Article  % Articles   % Vandalism
+        Democrat    28,595     509,970          17.8       37.9%         34.6%
+      Republican    28,320     612,083          21.6       37.5%         41.5%
+     Libertarian        90       6,999          77.8        0.1%          0.5%
+           Other    18,535     344,964          18.6       24.5%         23.4%
+
+======================================================================
+  CALENDAR MONTH SEASONALITY
+======================================================================
+
+  All-time calendar month totals and averages (2001-2026, 26 years):
+    Month            Total    Avg/Year
+    January        252,686       9,719
+    February       239,578       9,215
+    March          228,375       8,784
+    April          210,651       8,102
+    May            225,087       8,657
+    June           170,424       6,555
+    July           187,399       7,208
+    August         193,693       7,450
+    September      207,384       7,976
+    October        264,621      10,178
+    November       270,635      10,409
+    December       233,469       8,980
+
+  Post-2008 calendar month totals and averages (2008-2026, 19 years):
+    Month            Total    Avg/Year
+    January        162,201       8,537
+    February       149,712       7,880
+    March          140,336       7,386
+    April          121,882       6,415
+    May            126,436       6,655
+    June            96,251       5,066
+    July            93,913       4,943
+    August         102,920       5,417
+    September      106,075       5,583
+    October        130,612       6,874
+    November       133,905       7,048
+    December       109,773       5,778
+
+  All-time: highest = November (270,635), lowest = June (170,424)
+  Post-2008: highest = January (162,201), lowest = July (93,913)

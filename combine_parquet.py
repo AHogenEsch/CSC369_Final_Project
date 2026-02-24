@@ -8,12 +8,7 @@ directory and writes a single combined Parquet file.
 import os
 import sys
 import time
-
-try:
-    import pyarrow.parquet as pq
-except ImportError:
-    print("ERROR: pyarrow is required.  pip install pyarrow")
-    sys.exit(1)
+import pyarrow.parquet as pq
 
 OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "output")
 COMBINED_FILE = os.path.join(OUTPUT_DIR, "all_politician_revisions.parquet")

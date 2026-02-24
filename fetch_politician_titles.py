@@ -72,7 +72,6 @@ SELECT DISTINCT ?item ?articleTitle ?description WHERE {
 """
 
 # Query 3: People who directly held one of these specific positions
-# (simpler, avoids subclass traversal timeout issues)
 QUERY_POLITICIANS_DIRECT_POSITIONS = """
 SELECT DISTINCT ?item ?articleTitle ?description WHERE {
   ?item wdt:P31 wd:Q5 .
