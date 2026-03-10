@@ -1,0 +1,656 @@
+
+======================================================================
+  ALL-TIME VANDAL ANALYSIS
+======================================================================
+
+
+======================================================================
+  VANDAL CENSUS (All Time)
+======================================================================
+
+  Total unique vandals (All Time): 564,509
+    Anonymous (unique IPs):    420,959 (74.6%)
+    Registered (unique users): 143,550 (25.4%)
+      Likely bots:            686 (0.12%)
+      Human editors:          142,864 (25.3%)
+  Total vandalism edits: 2,684,002
+    From anonymous:  1,222,293 (45.5%)
+    From registered: 1,461,709 (54.5%)
+      From bots:    54,019 (2.0%)
+      From humans:  1,407,690 (52.4%)
+
+======================================================================
+  EDITS PER VANDAL (All Time)
+======================================================================
+
+  Edits per vandal (All Time):
+    Mean:   4.75
+    Median: 2.0
+    Q1:     1.0
+    Q3:     3.0
+    Max:    9,917
+
+  One-and-done vandals (exactly 1 edit): 267,924 (47.5%)
+    >=   2 edits:  296,585 (52.5%)
+    >=   5 edits:   83,912 (14.9%)
+    >=  10 edits:   36,820 (6.5%)
+    >=  50 edits:    4,891 (0.9%)
+    >= 100 edits:    2,105 (0.4%)
+
+======================================================================
+  PARTY TARGETING PATTERNS (All Time)
+======================================================================
+
+  Party targeting (All Time):
+    Single-party vandals:  510,184 (90.4%)
+    Cross-party vandals:   54,325 (9.6%)
+
+  Single-party vandals target breakdown:
+        Democrat:  171,222 (33.6%)
+      Republican:  205,440 (40.3%)
+     Libertarian:    2,052 (0.4%)
+           Other:  131,470 (25.8%)
+
+  Party Focus Index / HHI (All Time):
+    (1.0 = all edits on one party, 0.25 = even split across 4)
+    Overall mean:   0.9576
+    Overall median: 1.0000
+    Anonymous  mean: 0.9733  median: 1.0000
+    Registered mean: 0.9117  median: 1.0000
+
+  Average party proportions for vandals with 5+ edits (83,912 vandals, All Time):
+           Party   Mean Proportion   Median Proportion
+        Democrat            0.3113              0.0909
+      Republican            0.4570              0.3913
+     Libertarian            0.0031              0.0000
+           Other            0.2285              0.0000
+
+======================================================================
+  ACTIVITY SPAN (All Time)
+======================================================================
+
+  Activity span analysis (All Time):
+    Vandals with 2+ edits: 296,585 (52.5% of all vandals)
+
+    Active window (first edit to last edit):
+      Mean:   181.0 days
+      Median: 0.1 hours
+      Q1:     0.0 hours
+      Q3:     2.0 days
+      Max:    22.73 years
+
+    One-day vandals (active <= 24 hrs): 218,005 (73.5%)
+    Long-term vandals (active > 1 year): 29,958 (10.1%)
+
+    By type (vandals with 2+ edits):
+      Anonymous  -- mean: 77.0 days, median: 0.0 hours
+      Registered -- mean: 1.19 years, median: 2.6 hours
+
+======================================================================
+  PAGE DIVERSITY (All Time)
+======================================================================
+
+  Page diversity (All Time):
+    Mean unique pages per vandal:   1.62
+    Median unique pages per vandal: 1.0
+    1 page:    487,786 (86.4%)
+    2-5 pages: 63,300 (11.2%)
+    5+ pages:  13,423 (2.4%)
+
+======================================================================
+  TOP 10 REGISTERED VANDALS -- DETAILED PROFILES (All Time)
+======================================================================
+
+  Top 10 most prolific registered vandals (All Time):
+  (Accounts with 'bot' in the name are flagged as likely bots)
+
+  --- #1: Rjensen ---
+    Total detected vandalism edits: 9,917
+    Unique pages targeted:          274
+    Unique parties targeted:         3
+    First edit: 2005-06-29 16:54 UTC
+    Last edit:  2025-11-16 19:16 UTC
+    Active span: 20.38 years
+    Party Focus Index (HHI): 0.3518
+    Party breakdown:
+          Democrat:  3,861 edits ( 38.9%)
+        Republican:  3,852 edits ( 38.8%)
+       Libertarian:      0 edits (  0.0%)
+             Other:  2,204 edits ( 22.2%)
+    Top 5 targeted pages:
+      Republican Party (United States): 1,160
+      Franklin D. Roosevelt: 589
+      Alexander Hamilton: 571
+      Abraham Lincoln: 415
+      Democratic Party (United States): 406
+
+  --- #2: ClueBot NG [BOT] ---
+    Total detected vandalism edits: 7,714
+    Unique pages targeted:          1,297
+    Unique parties targeted:         4
+    First edit: 2010-11-02 20:25 UTC
+    Last edit:  2026-02-01 10:41 UTC
+    Active span: 15.25 years
+    Party Focus Index (HHI): 0.3320
+    Party breakdown:
+          Democrat:  2,332 edits ( 30.2%)
+        Republican:  2,916 edits ( 37.8%)
+       Libertarian:     55 edits (  0.7%)
+             Other:  2,411 edits ( 31.3%)
+    Top 5 targeted pages:
+      Dwight D. Eisenhower: 291
+      Kane (wrestler): 213
+      Thomas Paine: 157
+      Herbert Hoover: 144
+      Donald Trump: 144
+
+  --- #3: Everyking ---
+    Total detected vandalism edits: 6,457
+    Unique pages targeted:          229
+    Unique parties targeted:         3
+    First edit: 2004-05-23 05:15 UTC
+    Last edit:  2017-09-05 23:05 UTC
+    Active span: 13.29 years
+    Party Focus Index (HHI): 0.7581
+    Party breakdown:
+          Democrat:    522 edits (  8.1%)
+        Republican:  5,587 edits ( 86.5%)
+       Libertarian:      0 edits (  0.0%)
+             Other:    348 edits (  5.4%)
+    Top 5 targeted pages:
+      George W. Bush: 5,072
+      Thomas Jefferson: 82
+      George Washington: 59
+      Bill Clinton: 50
+      Condoleezza Rice: 47
+
+  --- #4: Shanes ---
+    Total detected vandalism edits: 6,271
+    Unique pages targeted:          83
+    Unique parties targeted:         3
+    First edit: 2004-11-22 10:46 UTC
+    Last edit:  2015-10-22 21:41 UTC
+    Active span: 10.91 years
+    Party Focus Index (HHI): 0.9344
+    Party breakdown:
+          Democrat:    109 edits (  1.7%)
+        Republican:  6,060 edits ( 96.6%)
+       Libertarian:      0 edits (  0.0%)
+             Other:    102 edits (  1.6%)
+    Top 5 targeted pages:
+      George W. Bush: 5,457
+      Dick Cheney: 219
+      George H. W. Bush: 150
+      Theodore Roosevelt: 105
+      George Washington: 59
+
+  --- #5: ClueBot [BOT] ---
+    Total detected vandalism edits: 5,473
+    Unique pages targeted:          616
+    Unique parties targeted:         4
+    First edit: 2007-08-01 06:37 UTC
+    Last edit:  2010-12-02 19:48 UTC
+    Active span: 3.34 years
+    Party Focus Index (HHI): 0.3334
+    Party breakdown:
+          Democrat:  1,840 edits ( 33.6%)
+        Republican:  1,728 edits ( 31.6%)
+       Libertarian:      4 edits (  0.1%)
+             Other:  1,901 edits ( 34.7%)
+    Top 5 targeted pages:
+      George W. Bush: 229
+      Thomas Paine: 105
+      Joseph Smith: 104
+      Woodrow Wilson: 102
+      John Deere (inventor): 86
+
+  --- #6: Anythingyouwant ---
+    Total detected vandalism edits: 5,466
+    Unique pages targeted:          63
+    Unique parties targeted:         3
+    First edit: 2006-12-05 01:18 UTC
+    Last edit:  2025-10-15 09:18 UTC
+    Active span: 18.86 years
+    Party Focus Index (HHI): 0.7932
+    Party breakdown:
+          Democrat:    361 edits (  6.6%)
+        Republican:  4,848 edits ( 88.7%)
+       Libertarian:      0 edits (  0.0%)
+             Other:    257 edits (  4.7%)
+    Top 5 targeted pages:
+      Donald Trump: 1,972
+      John McCain: 1,223
+      Fred Thompson: 337
+      Carly Fiorina: 263
+      Hillary Clinton: 243
+
+  --- #7: Wasted Time R ---
+    Total detected vandalism edits: 5,370
+    Unique pages targeted:          72
+    Unique parties targeted:         3
+    First edit: 2005-06-10 16:55 UTC
+    Last edit:  2021-07-13 10:09 UTC
+    Active span: 16.09 years
+    Party Focus Index (HHI): 0.5650
+    Party breakdown:
+          Democrat:  3,663 edits ( 68.2%)
+        Republican:  1,696 edits ( 31.6%)
+       Libertarian:      0 edits (  0.0%)
+             Other:     11 edits (  0.2%)
+    Top 5 targeted pages:
+      Hillary Clinton: 2,559
+      John McCain: 1,025
+      Joe Biden: 687
+      Rudy Giuliani: 451
+      Hilda Solis: 149
+
+  --- #8: MONGO ---
+    Total detected vandalism edits: 5,096
+    Unique pages targeted:          92
+    Unique parties targeted:         3
+    First edit: 2005-01-18 12:17 UTC
+    Last edit:  2021-07-29 16:03 UTC
+    Active span: 16.53 years
+    Party Focus Index (HHI): 0.9621
+    Party breakdown:
+          Democrat:     59 edits (  1.2%)
+        Republican:  4,998 edits ( 98.1%)
+       Libertarian:      0 edits (  0.0%)
+             Other:     39 edits (  0.8%)
+    Top 5 targeted pages:
+      George W. Bush: 4,861
+      Donald Trump: 58
+      Cindy Sheehan: 8
+      Bill Clinton: 7
+      John Roberts: 6
+
+  --- #9: JamesMLane ---
+    Total detected vandalism edits: 4,410
+    Unique pages targeted:          99
+    Unique parties targeted:         4
+    First edit: 2004-04-12 16:57 UTC
+    Last edit:  2024-11-16 18:06 UTC
+    Active span: 20.60 years
+    Party Focus Index (HHI): 0.7559
+    Party breakdown:
+          Democrat:    579 edits ( 13.1%)
+        Republican:  3,790 edits ( 85.9%)
+       Libertarian:      1 edits (  0.0%)
+             Other:     40 edits (  0.9%)
+    Top 5 targeted pages:
+      George W. Bush: 3,485
+      John Kerry: 359
+      Jerry Nadler: 53
+      Rudy Giuliani: 49
+      John Roberts: 49
+
+  --- #10: Antandrus ---
+    Total detected vandalism edits: 4,021
+    Unique pages targeted:          197
+    Unique parties targeted:         4
+    First edit: 2004-08-09 04:17 UTC
+    Last edit:  2025-05-16 18:56 UTC
+    Active span: 20.77 years
+    Party Focus Index (HHI): 0.4220
+    Party breakdown:
+          Democrat:  1,095 edits ( 27.2%)
+        Republican:  2,283 edits ( 56.8%)
+       Libertarian:      1 edits (  0.0%)
+             Other:    642 edits ( 16.0%)
+    Top 5 targeted pages:
+      George W. Bush: 1,579
+      John Kerry: 247
+      Bill Clinton: 187
+      Martin Luther King Jr.: 136
+      George Washington: 132
+
+
+======================================================================
+  ANON VS. REGISTERED COMPARISON (All Time)
+======================================================================
+
+
+  Anon vs. Registered summary (All Time):
+    Metric                               Anonymous      Registered
+    ------------------------------  --------------  --------------
+    Unique vandals                         420,959         143,550
+    Total edits                          1,222,293       1,461,709
+    Mean edits/vandal                         2.90           10.18
+    Median edits/vandal                        1.0             2.0
+    Mean pages/vandal                         1.21            2.83
+    Mean HHI (party focus)                  0.9733          0.9117
+    One-and-done rate                        50.1%           39.7%
+    Mean active span (2+ edits)          77.0 days      1.19 years
+
+======================================================================
+  HOUR-OF-DAY PATTERNS (All Time)
+======================================================================
+
+  Peak hour for anonymous vandalism:  18:00 UTC (80,011 edits)
+  Peak hour for registered vandalism: 19:00 UTC (84,877 edits)
+  Lowest hour for anonymous:  10:00 UTC (15,126 edits)
+  Lowest hour for registered: 10:00 UTC (25,658 edits)
+
+======================================================================
+  POST-2008 VANDAL ANALYSIS
+======================================================================
+
+  Events from 2008 onward: 1,474,016 (excluded 1,209,986 pre-2008 events)
+
+======================================================================
+  VANDAL CENSUS (Post-2008)
+======================================================================
+
+  Total unique vandals (Post-2008): 411,079
+    Anonymous (unique IPs):    302,269 (73.5%)
+    Registered (unique users): 108,810 (26.5%)
+      Likely bots:            516 (0.13%)
+      Human editors:          108,294 (26.3%)
+  Total vandalism edits: 1,474,016
+    From anonymous:  666,726 (45.2%)
+    From registered: 807,290 (54.8%)
+      From bots:    37,756 (2.6%)
+      From humans:  769,534 (52.2%)
+
+======================================================================
+  EDITS PER VANDAL (Post-2008)
+======================================================================
+
+  Edits per vandal (Post-2008):
+    Mean:   3.59
+    Median: 1.0
+    Q1:     1.0
+    Q3:     2.0
+    Max:    7,714
+
+  One-and-done vandals (exactly 1 edit): 218,184 (53.1%)
+    >=   2 edits:  192,895 (46.9%)
+    >=   5 edits:   47,052 (11.4%)
+    >=  10 edits:   17,553 (4.3%)
+    >=  50 edits:    2,299 (0.6%)
+    >= 100 edits:    1,024 (0.2%)
+
+======================================================================
+  PARTY TARGETING PATTERNS (Post-2008)
+======================================================================
+
+  Party targeting (Post-2008):
+    Single-party vandals:  376,406 (91.6%)
+    Cross-party vandals:   34,673 (8.4%)
+
+  Single-party vandals target breakdown:
+        Democrat:  129,064 (34.3%)
+      Republican:  148,392 (39.4%)
+     Libertarian:    1,861 (0.5%)
+           Other:   97,089 (25.8%)
+
+  Party Focus Index / HHI (Post-2008):
+    (1.0 = all edits on one party, 0.25 = even split across 4)
+    Overall mean:   0.9621
+    Overall median: 1.0000
+    Anonymous  mean: 0.9786  median: 1.0000
+    Registered mean: 0.9162  median: 1.0000
+
+  Average party proportions for vandals with 5+ edits (47,052 vandals, Post-2008):
+           Party   Mean Proportion   Median Proportion
+        Democrat            0.3469              0.1805
+      Republican            0.4028              0.2857
+     Libertarian            0.0046              0.0000
+           Other            0.2457              0.0000
+
+======================================================================
+  ACTIVITY SPAN (Post-2008)
+======================================================================
+
+  Activity span analysis (Post-2008):
+    Vandals with 2+ edits: 192,895 (46.9% of all vandals)
+
+    Active window (first edit to last edit):
+      Mean:   193.9 days
+      Median: 0.1 hours
+      Q1:     0.0 hours
+      Q3:     2.3 days
+      Max:    18.08 years
+
+    One-day vandals (active <= 24 hrs): 140,837 (73.0%)
+    Long-term vandals (active > 1 year): 19,909 (10.3%)
+
+    By type (vandals with 2+ edits):
+      Anonymous  -- mean: 69.3 days, median: 0.0 hours
+      Registered -- mean: 1.27 years, median: 5.1 hours
+
+======================================================================
+  PAGE DIVERSITY (Post-2008)
+======================================================================
+
+  Page diversity (Post-2008):
+    Mean unique pages per vandal:   1.58
+    Median unique pages per vandal: 1.0
+    1 page:    360,968 (87.8%)
+    2-5 pages: 41,541 (10.1%)
+    5+ pages:  8,570 (2.1%)
+
+======================================================================
+  TOP 10 REGISTERED VANDALS -- DETAILED PROFILES (Post-2008)
+======================================================================
+
+  Top 10 most prolific registered vandals (Post-2008):
+  (Accounts with 'bot' in the name are flagged as likely bots)
+
+  --- #1: ClueBot NG [BOT] ---
+    Total detected vandalism edits: 7,714
+    Unique pages targeted:          1,297
+    Unique parties targeted:         4
+    First edit: 2010-11-02 20:25 UTC
+    Last edit:  2026-02-01 10:41 UTC
+    Active span: 15.25 years
+    Party Focus Index (HHI): 0.3320
+    Party breakdown:
+          Democrat:  2,332 edits ( 30.2%)
+        Republican:  2,916 edits ( 37.8%)
+       Libertarian:     55 edits (  0.7%)
+             Other:  2,411 edits ( 31.3%)
+    Top 5 targeted pages:
+      Dwight D. Eisenhower: 291
+      Kane (wrestler): 213
+      Thomas Paine: 157
+      Herbert Hoover: 144
+      Donald Trump: 144
+
+  --- #2: Anythingyouwant ---
+    Total detected vandalism edits: 4,787
+    Unique pages targeted:          59
+    Unique parties targeted:         3
+    First edit: 2008-01-07 14:11 UTC
+    Last edit:  2025-10-15 09:18 UTC
+    Active span: 17.77 years
+    Party Focus Index (HHI): 0.7870
+    Party breakdown:
+          Democrat:    317 edits (  6.6%)
+        Republican:  4,228 edits ( 88.3%)
+       Libertarian:      0 edits (  0.0%)
+             Other:    242 edits (  5.1%)
+    Top 5 targeted pages:
+      Donald Trump: 1,972
+      John McCain: 1,211
+      Carly Fiorina: 263
+      Hillary Clinton: 209
+      John Marshall: 176
+
+  --- #3: ClueBot [BOT] ---
+    Total detected vandalism edits: 4,362
+    Unique pages targeted:          569
+    Unique parties targeted:         4
+    First edit: 2008-01-01 16:22 UTC
+    Last edit:  2010-12-02 19:48 UTC
+    Active span: 2.92 years
+    Party Focus Index (HHI): 0.3344
+    Party breakdown:
+          Democrat:  1,539 edits ( 35.3%)
+        Republican:  1,317 edits ( 30.2%)
+       Libertarian:      3 edits (  0.1%)
+             Other:  1,503 edits ( 34.5%)
+    Top 5 targeted pages:
+      George W. Bush: 127
+      Woodrow Wilson: 91
+      Joseph Smith: 90
+      Thomas Paine: 79
+      John Deere (inventor): 67
+
+  --- #4: Hoppyh ---
+    Total detected vandalism edits: 3,933
+    Unique pages targeted:          43
+    Unique parties targeted:         3
+    First edit: 2010-07-05 15:12 UTC
+    Last edit:  2025-07-03 12:33 UTC
+    Active span: 14.99 years
+    Party Focus Index (HHI): 0.3738
+    Party breakdown:
+          Democrat:  1,640 edits ( 41.7%)
+        Republican:  1,628 edits ( 41.4%)
+       Libertarian:      0 edits (  0.0%)
+             Other:    665 edits ( 16.9%)
+    Top 5 targeted pages:
+      Dwight D. Eisenhower: 953
+      Franklin D. Roosevelt: 727
+      John Quincy Adams: 368
+      Lyndon B. Johnson: 329
+      George Washington: 269
+
+  --- #5: Rjensen ---
+    Total detected vandalism edits: 3,882
+    Unique pages targeted:          229
+    Unique parties targeted:         3
+    First edit: 2008-01-14 11:36 UTC
+    Last edit:  2025-11-16 19:16 UTC
+    Active span: 17.84 years
+    Party Focus Index (HHI): 0.3343
+    Party breakdown:
+          Democrat:  1,295 edits ( 33.4%)
+        Republican:  1,380 edits ( 35.5%)
+       Libertarian:      0 edits (  0.0%)
+             Other:  1,207 edits ( 31.1%)
+    Top 5 targeted pages:
+      Franklin D. Roosevelt: 280
+      Republican Party (United States): 261
+      Dwight D. Eisenhower: 245
+      Alexander Hamilton: 237
+      George Washington: 213
+
+  --- #6: GoodDay ---
+    Total detected vandalism edits: 3,533
+    Unique pages targeted:          732
+    Unique parties targeted:         4
+    First edit: 2008-01-09 16:21 UTC
+    Last edit:  2026-01-20 05:11 UTC
+    Active span: 18.03 years
+    Party Focus Index (HHI): 0.4244
+    Party breakdown:
+          Democrat:  1,721 edits ( 48.7%)
+        Republican:  1,497 edits ( 42.4%)
+       Libertarian:      8 edits (  0.2%)
+             Other:    307 edits (  8.7%)
+    Top 5 targeted pages:
+      Joe Biden: 194
+      Donald Trump: 169
+      Kamala Harris: 158
+      Republican Party (United States): 129
+      Democratic Party (United States): 118
+
+  --- #7: Wasted Time R ---
+    Total detected vandalism edits: 3,401
+    Unique pages targeted:          50
+    Unique parties targeted:         3
+    First edit: 2008-01-01 00:28 UTC
+    Last edit:  2021-07-13 10:09 UTC
+    Active span: 13.53 years
+    Party Focus Index (HHI): 0.5664
+    Party breakdown:
+          Democrat:  2,327 edits ( 68.4%)
+        Republican:  1,066 edits ( 31.3%)
+       Libertarian:      0 edits (  0.0%)
+             Other:      8 edits (  0.2%)
+    Top 5 targeted pages:
+      Hillary Clinton: 1,268
+      John McCain: 812
+      Joe Biden: 681
+      Hilda Solis: 149
+      Rudy Giuliani: 132
+
+  --- #8: John Foxe ---
+    Total detected vandalism edits: 3,035
+    Unique pages targeted:          8
+    Unique parties targeted:         3
+    First edit: 2008-07-29 21:58 UTC
+    Last edit:  2025-10-30 02:49 UTC
+    Active span: 17.25 years
+    Party Focus Index (HHI): 0.9889
+    Party breakdown:
+          Democrat:     15 edits (  0.5%)
+        Republican:      2 edits (  0.1%)
+       Libertarian:      0 edits (  0.0%)
+             Other:  3,018 edits ( 99.4%)
+    Top 5 targeted pages:
+      Joseph Smith: 3,012
+      B. H. Roberts: 11
+      David Whitmer: 4
+      Harold Roe Bartle: 2
+      Samuel L. Mitchill: 2
+
+  --- #9: Ser Amantio di Nicolao ---
+    Total detected vandalism edits: 2,872
+    Unique pages targeted:          2,258
+    Unique parties targeted:         4
+    First edit: 2008-03-12 09:08 UTC
+    Last edit:  2026-01-24 19:34 UTC
+    Active span: 17.87 years
+    Party Focus Index (HHI): 0.3396
+    Party breakdown:
+          Democrat:  1,111 edits ( 38.7%)
+        Republican:    975 edits ( 33.9%)
+       Libertarian:      1 edits (  0.0%)
+             Other:    785 edits ( 27.3%)
+    Top 5 targeted pages:
+      Kamala Harris: 22
+      Sonny Bono: 20
+      Barack Obama: 19
+      George W. Bush: 16
+      James Weldon Johnson: 15
+
+  --- #10: AnomieBOT [BOT] ---
+    Total detected vandalism edits: 2,838
+    Unique pages targeted:          956
+    Unique parties targeted:         4
+    First edit: 2008-09-04 18:05 UTC
+    Last edit:  2026-01-25 06:52 UTC
+    Active span: 17.39 years
+    Party Focus Index (HHI): 0.3629
+    Party breakdown:
+          Democrat:    882 edits ( 31.1%)
+        Republican:  1,354 edits ( 47.7%)
+       Libertarian:     46 edits (  1.6%)
+             Other:    556 edits ( 19.6%)
+    Top 5 targeted pages:
+      Donald Trump: 177
+      Republican Party (United States): 88
+      Democratic Party (United States): 64
+      Kamala Harris: 60
+      Paul Robeson: 53
+
+
+======================================================================
+  ANON VS. REGISTERED COMPARISON (Post-2008)
+======================================================================
+
+
+  Anon vs. Registered summary (Post-2008):
+    Metric                               Anonymous      Registered
+    ------------------------------  --------------  --------------
+    Unique vandals                         302,269         108,810
+    Total edits                            666,726         807,290
+    Mean edits/vandal                         2.21            7.42
+    Median edits/vandal                        1.0             2.0
+    Mean pages/vandal                         1.17            2.71
+    Mean HHI (party focus)                  0.9786          0.9162
+    One-and-done rate                        56.4%           43.8%
+    Mean active span (2+ edits)          69.3 days      1.27 years
