@@ -203,12 +203,12 @@ The log-scale histogram shows the classic power-law distribution: the vast major
 
 ### Party Targeting Patterns
 
-| Metric | Value |
-|---|---|
-| Single-party vandals | 510,184 (90.4%) |
-| Cross-party vandals | 54,325 (9.6%) |
+| Metric | Overall | Anonymous | Registered |
+|---|---|---|---|
+| Single-party vandals | 510,184 (90.4%) | 394,762 (93.8%) | 115,422 (80.4%) |
+| Cross-party vandals | 54,325 (9.6%) | 26,197 (6.2%) | 28,128 (19.6%) |
 
-An overwhelming 90.4% of vandals only ever targeted pages belonging to a single political party. Among these single-party vandals:
+An overwhelming 90.4% of vandals only ever targeted pages belonging to a single political party. Anonymous vandals are especially focused, with 93.8% targeting only one party, compared to 80.4% for registered users. This gap makes sense: anonymous vandals tend to make fewer edits on fewer pages, so their activity naturally concentrates on a single party. Registered vandals are three times more likely to cross party lines (19.6% vs. 6.2%), consistent with the finding that many are engaged in editorial disputes that span multiple related pages. Among single-party vandals:
 
 | Target Party | Single-Party Vandals | % |
 |---|---|---|
@@ -216,8 +216,6 @@ An overwhelming 90.4% of vandals only ever targeted pages belonging to a single 
 | Democrat | 171,222 | 33.6% |
 | Other | 131,470 | 25.8% |
 | Libertarian | 2,052 | 0.4% |
-
-The typical vandal is highly partisan in their targeting. The median vandal targets exactly one party, and even among the 9.6% who cross party lines, most still concentrate heavily on a single side. Anonymous vandals are particularly focused -- they tend to make fewer edits on fewer pages, so their activity naturally concentrates on a single party. Registered vandals show slightly more diversity in their targeting, consistent with the finding that many are engaged in editorial disputes that span multiple related pages.
 
 ### Activity Span
 
