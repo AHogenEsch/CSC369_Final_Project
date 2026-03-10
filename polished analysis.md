@@ -52,17 +52,7 @@ The all-time list is dominated by presidents and presidential candidates. The to
 
 ![All-time vandalism events per month by party](output/vandalism_monthly.png)
 
-The all-time monthly plot reveals a massive vandalism spike in 2005--2006, dominated by Republican-article vandalism (primarily the George W. Bush page during his presidency). This early period predates Wikipedia's modern anti-vandalism infrastructure. The peak month across the entire dataset was October 2005 with 62,388 vandalism edits, and all five of the highest-vandalism months occurred in the second half of 2005:
-
-| Rank | Month | Vandalism Edits |
-|---|---|---|
-| 1 | 2005-10 | 62,388 |
-| 2 | 2005-12 | 62,300 |
-| 3 | 2005-11 | 61,025 |
-| 4 | 2005-07 | 48,658 |
-| 5 | 2005-09 | 44,132 |
-
-The top 5 weeks mirror this, all falling in late 2005. The longest stretch without any vandalism was 251 days in early 2001 (March 7 to November 13), when Wikipedia was still in its infancy.
+The all-time monthly plot reveals a massive vandalism spike in 2005--2006, dominated by Republican-article vandalism (primarily the George W. Bush page during his presidency). This early period predates Wikipedia's modern anti-vandalism infrastructure. The peak month across the entire dataset was October 2005 with 62,388 vandalism edits.
 
 #### All-Time Restoration Times
 
@@ -155,22 +145,6 @@ The post-2008 list shifts significantly. Donald Trump leads with 42,205 events, 
 
 Without the 2005 spike dominating the y-axis, the post-2008 plot reveals richer detail. There is a clear downward trend over time, likely reflecting Wikipedia's improved anti-vandalism tools. Dashed vertical lines mark US general elections. Notable spikes appear around the 2008--2009 Obama inauguration, the 2016 Trump election, and the 2020--2021 election and Capitol events. Republican vandalism (red) consistently runs above Democratic vandalism (blue), though the lines converge in recent years.
 
-#### Election Proximity Effect (2008+)
-
-| Election | Before (90 days) | After (90 days) | Change |
-|---|---|---|---|
-| 2008 | 65,036 | 63,311 | -2.7% |
-| 2010 | 28,287 | 30,636 | +8.3% |
-| 2012 | 18,472 | 19,405 | +5.1% |
-| 2014 | 13,984 | 14,699 | +5.1% |
-| 2016 | 17,021 | 23,350 | +37.2% |
-| 2018 | 14,950 | 17,850 | +19.4% |
-| 2020 | 14,899 | 23,861 | +60.2% |
-| 2022 | 10,655 | 14,395 | +35.1% |
-| 2024 | 9,663 | 13,194 | +36.5% |
-
-The post-election vandalism surge is consistent across the modern era. The 2020 election showed the largest spike at +60.2%, while the 2008 election was the sole exception at -2.7%. Presidential election years (2016, 2020, 2024) consistently produce larger spikes than midterm years (2014, 2018, 2022), reflecting the higher political intensity surrounding presidential races.
-
 #### Post-2008 Restoration Times
 
 | Party | Mean | Median |
@@ -192,7 +166,7 @@ The hypothesis that Democratic politicians would experience more vandalism was *
 
 To better understand who is behind the vandalism, a separate analysis profiled the 564,509 unique entities (IP addresses and usernames) responsible for the 2,684,002 vandalism edits. Bots were identified by the Wikipedia naming convention of including "bot" (case-insensitive) in the username.
 
-### All-Time Vandal Census
+### Vandal Census
 
 | Category | Count | % of Vandals | Edits | % of Edits |
 |---|---|---|---|---|
@@ -203,20 +177,19 @@ To better understand who is behind the vandalism, a separate analysis profiled t
 
 Anonymous vandals vastly outnumber registered ones (74.6% vs. 25.4%), but they produce fewer total edits (45.5% vs. 54.5%). This is because registered accounts that get caught in the detection are far more prolific -- averaging 10.18 edits per account compared to 2.90 for anonymous IPs. Only 686 accounts (0.12%) were identified as likely bots by name, but they accounted for 54,019 edits (2.0%).
 
-### Edits Per Vandal (All Time)
+### Edits Per Vandal
 
 | Statistic | Value |
 |---|---|
 | Mean | 4.75 |
-| Median | 2.0 |
 | Q1 | 1.0 |
+| Median | 2.0 |
 | Q3 | 3.0 |
 | Max | 9,917 |
 
 | Threshold | Vandals | % of Total |
 |---|---|---|
 | Exactly 1 edit (one-and-done) | 267,924 | 47.5% |
-| >= 2 edits | 296,585 | 52.5% |
 | >= 5 edits | 83,912 | 14.9% |
 | >= 10 edits | 36,820 | 6.5% |
 | >= 50 edits | 4,891 | 0.9% |
@@ -224,11 +197,11 @@ Anonymous vandals vastly outnumber registered ones (74.6% vs. 25.4%), but they p
 
 Nearly half of all vandals (47.5%) made exactly one vandalism edit and never returned. The distribution is extremely right-skewed: only 0.4% of vandals made 100 or more edits, but this small group is disproportionately responsible for a large share of total vandalism. The maximum of 9,917 edits belongs to Rjensen, a well-known Wikipedia editor (discussed below).
 
-![Distribution of vandalism edits per vandal (All Time)](output/vandal_edit_distribution.png)
+![Distribution of vandalism edits per vandal](output/vandal_edit_distribution.png)
 
 The log-scale histogram shows the classic power-law distribution: the vast majority of vandals cluster at 1--3 edits, with a long tail extending to thousands.
 
-### Party Targeting Patterns (All Time)
+### Party Targeting Patterns
 
 | Metric | Value |
 |---|---|
@@ -244,28 +217,9 @@ An overwhelming 90.4% of vandals only ever targeted pages belonging to a single 
 | Other | 131,470 | 25.8% |
 | Libertarian | 2,052 | 0.4% |
 
-To quantify how focused vandals are, a Party Focus Index (Herfindahl-Hirschman Index, or HHI) was computed for each vandal: the sum of squared party proportions. A score of 1.0 means all edits target one party; 0.25 means edits are spread evenly across all four groups.
+The typical vandal is highly partisan in their targeting. The median vandal targets exactly one party, and even among the 9.6% who cross party lines, most still concentrate heavily on a single side. Anonymous vandals are particularly focused -- they tend to make fewer edits on fewer pages, so their activity naturally concentrates on a single party. Registered vandals show slightly more diversity in their targeting, consistent with the finding that many are engaged in editorial disputes that span multiple related pages.
 
-| Group | Mean HHI | Median HHI |
-|---|---|---|
-| Overall | 0.9576 | 1.0000 |
-| Anonymous | 0.9733 | 1.0000 |
-| Registered | 0.9117 | 1.0000 |
-
-The median HHI of 1.0 across all groups confirms that the typical vandal targets only one party. Anonymous vandals are slightly more focused (mean 0.9733) than registered ones (mean 0.9117), which makes sense -- anonymous vandals tend to make fewer edits on fewer pages, naturally concentrating on a single party.
-
-For vandals with 5 or more edits (83,912 vandals), where single-edit noise is filtered out, the average party proportions were:
-
-| Party | Mean Proportion | Median Proportion |
-|---|---|---|
-| Republican | 0.4570 | 0.3913 |
-| Democrat | 0.3113 | 0.0909 |
-| Other | 0.2285 | 0.0000 |
-| Libertarian | 0.0031 | 0.0000 |
-
-Among frequent vandals, Republican pages receive the largest average share of each vandal's activity (45.7%), further confirming that Republican articles are disproportionately targeted.
-
-### Activity Span (All Time)
+### Activity Span
 
 For vandals with 2 or more edits (296,585 total, 52.5% of all vandals):
 
@@ -289,7 +243,7 @@ The median active window of just 0.1 hours (6 minutes) reveals that most multi-e
 | Anonymous (2+ edits) | 77.0 days | 0.0 hours |
 | Registered (2+ edits) | 1.19 years | 2.6 hours |
 
-### Page Diversity (All Time)
+### Page Diversity
 
 | Pages Targeted | Vandals | % |
 |---|---|---|
@@ -299,43 +253,7 @@ The median active window of just 0.1 hours (6 minutes) reveals that most multi-e
 
 The vast majority of vandals (86.4%) target only a single politician page. The mean is 1.62 pages per vandal, and the median is 1.0. Only 2.4% of vandals target more than 5 distinct pages.
 
-### Top 10 Most Prolific Registered Vandals (All Time) -- Detailed Profiles
-
-The "top vandals" list reveals an important limitation of SHA1 revert detection: many of the most prolific accounts flagged are not vandals at all, but rather well-known Wikipedia editors and anti-vandalism bots. When these editors make good-faith content edits that later get reverted during editorial disputes -- or when bots' corrections are themselves reverted in subsequent edit wars -- the SHA1 method flags their intermediate edits as "vandalism." Accounts with "bot" in the name are tagged with [BOT].
-
-**#1: Rjensen** -- 9,917 edits across 274 pages over 20.38 years
-Rjensen is a well-known Wikipedia historian who has been a prolific editor since 2005. His HHI of 0.3518 indicates broad, balanced editing across parties (38.9% Democrat, 38.8% Republican, 22.2% Other). His top targeted pages are the Republican Party article (1,160), Franklin D. Roosevelt (589), and Alexander Hamilton (571). This profile is clearly that of a content editor participating in long-running editorial disputes, not a vandal.
-
-**#2: ClueBot NG [BOT]** -- 7,714 edits across 1,297 pages over 15.25 years
-ClueBot NG is Wikipedia's most famous anti-vandalism bot, using machine learning to detect and revert vandalism automatically. Its HHI of 0.3320 reflects perfectly balanced targeting across all parties. It appears on this list because when ClueBot NG reverts an edit and then another editor reverts ClueBot NG's reversion, the SHA1 method flags ClueBot NG's edit as part of a "vandalism" chain.
-
-**#3: Everyking** -- 6,457 edits across 229 pages over 13.29 years
-A longtime Wikipedia editor heavily focused on George W. Bush (5,072 of 6,457 edits, 78.6%). HHI of 0.7581 indicates strong Republican-page focus. This editor was likely engaged in sustained content disputes on the Bush article during its peak editing years.
-
-**#4: Shanes** -- 6,271 edits across 83 pages over 10.91 years
-Another George W. Bush-focused editor: 5,457 of 6,271 edits (87.0%) were on that single page. HHI of 0.9344 reflects this extreme concentration. This is a clear case of editorial dispute rather than vandalism.
-
-**#5: ClueBot [BOT]** -- 5,473 edits across 616 pages over 3.34 years
-The predecessor to ClueBot NG, active from 2007--2010. Like its successor, it has a balanced HHI (0.3334) reflecting automated, party-neutral operation.
-
-**#6: Anythingyouwant** -- 5,466 edits across 63 pages over 18.86 years
-Focused on Republican politicians (88.7%), primarily Donald Trump (1,972) and John McCain (1,223). HHI of 0.7932. Likely a content editor involved in disputes on high-traffic Republican political pages.
-
-**#7: Wasted Time R** -- 5,370 edits across 72 pages over 16.09 years
-Unusually, this editor has a Democrat-heavy focus (68.2%), centered on Hillary Clinton (2,559 edits) and Joe Biden (687). HHI of 0.5650. A content editor focused on Democratic political biographies.
-
-**#8: MONGO** -- 5,096 edits across 92 pages over 16.53 years
-Extremely concentrated on George W. Bush: 4,861 of 5,096 edits (95.4%). HHI of 0.9621. A well-known Wikipedia administrator who was heavily involved in the edit wars on the Bush article during the 2000s.
-
-**#9: JamesMLane** -- 4,410 edits across 99 pages over 20.60 years
-Republican-page focused (85.9%), with 3,485 edits on George W. Bush alone. Another editor caught up in the Bush-era edit wars.
-
-**#10: Antandrus** -- 4,021 edits across 197 pages over 20.77 years
-More balanced than most (HHI 0.4220), with George W. Bush still dominant (1,579 edits) but significant activity across John Kerry (247), Bill Clinton (187), and Martin Luther King Jr. (136).
-
-The key insight from these profiles is that the SHA1 revert detection method, while effective at capturing genuine vandalism (confirmed by the 32.3% keyword corroboration rate), also catches good-faith editorial disputes and bot activity. Editors like Rjensen, MONGO, and Shanes are not vandals -- they are prolific editors whose content contributions were reverted during long-running content disputes, particularly on the George W. Bush article. Similarly, ClueBot NG and ClueBot appear because anti-vandalism bot edits sometimes get caught in edit chains that resemble reverts. This is an inherent trade-off of hash-based vandalism detection: it is excellent at finding instances where content was reverted (high recall), but cannot distinguish between malicious vandalism and legitimate editorial disagreement (lower precision). Fortunately, these false positives are concentrated among a small number of prolific registered accounts; the overall patterns and statistical findings remain valid because these editors represent a tiny fraction of the 564,509 unique vandal entities.
-
-### Anon vs. Registered Comparison (All Time)
+### Anon vs. Registered Comparison
 
 | Metric | Anonymous | Registered |
 |---|---|---|
@@ -344,11 +262,10 @@ The key insight from these profiles is that the SHA1 revert detection method, wh
 | Mean edits/vandal | 2.90 | 10.18 |
 | Median edits/vandal | 1.0 | 2.0 |
 | Mean pages/vandal | 1.21 | 2.83 |
-| Mean HHI (party focus) | 0.9733 | 0.9117 |
 | One-and-done rate | 50.1% | 39.7% |
 | Mean active span (2+ edits) | 77.0 days | 1.19 years |
 
-Across every metric, registered vandals are more prolific (10.18 vs. 2.90 edits), more diverse in their targets (2.83 vs. 1.21 pages), slightly less partisan (HHI 0.9117 vs. 0.9733), less likely to be one-and-done (39.7% vs. 50.1%), and active for far longer (1.19 years vs. 77 days). This aligns with the finding above that many top registered "vandals" are actually persistent content editors, while anonymous vandals are more likely to be casual, impulsive actors.
+Across every metric, registered vandals are more prolific (10.18 vs. 2.90 edits), more diverse in their targets (2.83 vs. 1.21 pages), less likely to be one-and-done (39.7% vs. 50.1%), and active for far longer (1.19 years vs. 77 days). This aligns with the finding that many top registered "vandals" are actually persistent content editors caught in editorial disputes, while anonymous vandals are more likely to be casual, impulsive actors.
 
 ### Hour-of-Day Patterns
 
@@ -361,142 +278,58 @@ Across every metric, registered vandals are more prolific (10.18 vs. 2.90 edits)
 
 Both anonymous and registered vandalism peak in the late afternoon/evening UTC (which corresponds to midday through early evening in US time zones) and bottom out at 10:00 UTC (early morning US time). The similar patterns suggest both groups are predominantly US-based and active during the same waking hours. The slight shift of registered users peaking one hour later (19:00 vs. 18:00) may reflect that registered editors tend to be engaged in longer editing sessions that extend further into the evening.
 
----
+### Top 10 Most Prolific Registered Vandals -- Detailed Profiles
 
-### Post-2008 Vandal Analysis
+The "top vandals" list reveals an important limitation of SHA1 revert detection: many of the most prolific accounts flagged are not vandals at all, but rather well-known Wikipedia editors and anti-vandalism bots. When these editors make good-faith content edits that later get reverted during editorial disputes -- or when bots' corrections are themselves reverted in subsequent edit wars -- the SHA1 method flags their intermediate edits as "vandalism." Accounts with "bot" in the name are tagged with [BOT].
 
-The vandal profiling was repeated on only the 1,474,016 post-2008 vandalism events to isolate modern-era patterns.
+| Rank | Username | Type | Edits | Pages | Primary Focus | Active Span |
+|---|---|---|---|---|---|---|
+| 1 | Rjensen | Editor | 9,917 | 274 | Balanced (D 38.9%, R 38.8%, O 22.2%) | 20.38 years |
+| 2 | ClueBot NG | BOT | 7,714 | 1,297 | Balanced (D 30.2%, R 37.8%, O 31.3%) | 15.25 years |
+| 3 | Everyking | Editor | 6,457 | 229 | Republican (86.5%) -- G.W. Bush | 13.29 years |
+| 4 | Shanes | Editor | 6,271 | 83 | Republican (96.6%) -- G.W. Bush | 10.91 years |
+| 5 | ClueBot | BOT | 5,473 | 616 | Balanced (D 33.6%, R 31.6%, O 34.7%) | 3.34 years |
+| 6 | Anythingyouwant | Editor | 5,466 | 63 | Republican (88.7%) -- Trump, McCain | 18.86 years |
+| 7 | Wasted Time R | Editor | 5,370 | 72 | Democrat (68.2%) -- Clinton, Biden | 16.09 years |
+| 8 | MONGO | Editor | 5,096 | 92 | Republican (98.1%) -- G.W. Bush | 16.53 years |
+| 9 | JamesMLane | Editor | 4,410 | 99 | Republican (85.9%) -- G.W. Bush | 20.60 years |
+| 10 | Antandrus | Editor | 4,021 | 197 | Republican (56.8%) -- G.W. Bush, Kerry | 20.77 years |
 
-#### Post-2008 Vandal Census
+**#1: Rjensen** -- 9,917 edits across 274 pages over 20.38 years.
+Rjensen is a well-known Wikipedia historian who has been a prolific editor since 2005. His edits show no clear political bias, splitting nearly evenly between Democrat (38.9%) and Republican (38.8%) pages with 22.2% on Other. His top targeted pages are the Republican Party article (1,160), Franklin D. Roosevelt (589), and Alexander Hamilton (571). This profile is clearly that of a content editor participating in long-running editorial disputes across the political spectrum, not a vandal.
 
-| Category | Count | % of Vandals | Edits | % of Edits |
-|---|---|---|---|---|
-| Anonymous (unique IPs) | 302,269 | 73.5% | 666,726 | 45.2% |
-| Registered humans | 108,294 | 26.3% | 769,534 | 52.2% |
-| Likely bots | 516 | 0.13% | 37,756 | 2.6% |
-| **Total** | **411,079** | **100%** | **1,474,016** | **100%** |
+**#2: ClueBot NG [BOT]** -- 7,714 edits across 1,297 pages over 15.25 years.
+ClueBot NG is Wikipedia's most famous anti-vandalism bot, using machine learning to detect and revert vandalism automatically. Its edits are spread evenly across parties (30.2% Democrat, 37.8% Republican, 31.3% Other), reflecting automated, party-neutral operation. It appears on this list because when ClueBot NG reverts an edit and then another editor reverts ClueBot NG's reversion, the SHA1 method flags ClueBot NG's edit as part of a "vandalism" chain. This is a textbook example of how the hash-based detection method can produce false positives from legitimate anti-vandalism activity.
 
-The proportions are nearly identical to all-time: anonymous IPs are ~73--75% of unique vandals but produce ~45% of edits. Bots account for a slightly higher share of edits post-2008 (2.6% vs. 2.0%), reflecting the increasing deployment of automated tools.
+**#3: Everyking** -- 6,457 edits across 229 pages over 13.29 years.
+A longtime Wikipedia editor heavily focused on George W. Bush (5,072 of 6,457 edits, 78.6%). This editor's party breakdown is 86.5% Republican, reflecting their concentration on the Bush article during its peak editing years. This is a clear case of editorial dispute participation rather than vandalism.
 
-#### Edits Per Vandal (Post-2008)
+**#4: Shanes** -- 6,271 edits across 83 pages over 10.91 years.
+Another George W. Bush-focused editor: 5,457 of 6,271 edits (87.0%) were on that single page, resulting in a 96.6% Republican breakdown. Like Everyking, Shanes was a regular participant in the intense edit wars on the Bush article.
 
-| Statistic | Value |
-|---|---|
-| Mean | 3.59 |
-| Median | 1.0 |
-| Q1 | 1.0 |
-| Q3 | 2.0 |
-| Max | 7,714 |
+**#5: ClueBot [BOT]** -- 5,473 edits across 616 pages over 3.34 years.
+The predecessor to ClueBot NG, active from 2007--2010. Like its successor, it shows balanced targeting across parties (33.6% Democrat, 31.6% Republican, 34.7% Other), reflecting automated anti-vandalism work.
 
-| Threshold | Vandals | % of Total |
-|---|---|---|
-| Exactly 1 edit (one-and-done) | 218,184 | 53.1% |
-| >= 2 edits | 192,895 | 46.9% |
-| >= 5 edits | 47,052 | 11.4% |
-| >= 10 edits | 17,553 | 4.3% |
-| >= 50 edits | 2,299 | 0.6% |
-| >= 100 edits | 1,024 | 0.2% |
+**#6: Anythingyouwant** -- 5,466 edits across 63 pages over 18.86 years.
+Focused on Republican politician pages (88.7%), primarily Donald Trump (1,972) and John McCain (1,223). Likely a content editor involved in disputes on high-traffic Republican political pages.
 
-Post-2008 vandals are less prolific (mean 3.59 vs. 4.75 all-time) and more likely to be one-and-done (53.1% vs. 47.5%). This suggests that Wikipedia's improved defenses are more effective at deterring repeat offenders -- vandals who attempt a single edit and are immediately reverted are less likely to try again.
+**#7: Wasted Time R** -- 5,370 edits across 72 pages over 16.09 years.
+The only top-10 editor with a Democrat-heavy focus (68.2%), centered on Hillary Clinton (2,559 edits) and Joe Biden (687). A content editor focused on Democratic political biographies.
 
-![Distribution of vandalism edits per vandal (Post-2008)](output/vandal_edit_distribution_2008plus.png)
+**#8: MONGO** -- 5,096 edits across 92 pages over 16.53 years.
+Extremely concentrated on George W. Bush: 4,861 of 5,096 edits (95.4%), yielding a 98.1% Republican breakdown. MONGO is a well-known Wikipedia administrator who was heavily involved in the edit wars on the Bush article during the 2000s.
 
-#### Party Targeting Patterns (Post-2008)
+**#9: JamesMLane** -- 4,410 edits across 99 pages over 20.60 years.
+Republican-page focused (85.9%), with 3,485 edits on George W. Bush alone. Another editor caught up in the Bush-era edit wars.
 
-| Metric | Value |
-|---|---|
-| Single-party vandals | 376,406 (91.6%) |
-| Cross-party vandals | 34,673 (8.4%) |
+**#10: Antandrus** -- 4,021 edits across 197 pages over 20.77 years.
+More balanced than most on this list, with 56.8% Republican and 27.2% Democrat. George W. Bush is still the dominant page (1,579 edits), but there is significant activity across John Kerry (247), Bill Clinton (187), and Martin Luther King Jr. (136).
 
-The single-party rate is even higher post-2008 (91.6% vs. 90.4%), indicating that modern vandals are, if anything, more partisan in their targeting.
+### Why the Hash Method Catches False Vandals
 
-| Target Party | Single-Party Vandals | % |
-|---|---|---|
-| Republican | 148,392 | 39.4% |
-| Democrat | 129,064 | 34.3% |
-| Other | 97,089 | 25.8% |
-| Libertarian | 1,861 | 0.5% |
+The key insight from these profiles is that the SHA1 revert detection method, while effective at capturing genuine vandalism (confirmed by the 32.3% keyword corroboration rate), also catches good-faith editorial disputes and bot activity. The method works by finding instances where a page's content hash returns to a previously seen state, flagging the intermediate edits as vandalism and the restoring edit as a reversion. This logic is sound for classic vandalism -- someone defaces a page, then another editor reverts it back. But the same pattern occurs in editorial disputes: Editor A changes content, Editor B disagrees and reverts to the prior version, and the cycle repeats. In these cases, both editors may be acting in good faith, yet the SHA1 method flags one side's edits as "vandalism."
 
-| Group | Mean HHI | Median HHI |
-|---|---|---|
-| Overall | 0.9621 | 1.0000 |
-| Anonymous | 0.9786 | 1.0000 |
-| Registered | 0.9162 | 1.0000 |
-
-For vandals with 5+ edits (47,052 vandals post-2008):
-
-| Party | Mean Proportion | Median Proportion |
-|---|---|---|
-| Republican | 0.4028 | 0.2857 |
-| Democrat | 0.3469 | 0.1805 |
-| Other | 0.2457 | 0.0000 |
-| Libertarian | 0.0046 | 0.0000 |
-
-Post-2008, the gap between Republican and Democrat targeting narrows among frequent vandals (40.3% vs. 34.7%, compared to 45.7% vs. 31.1% all-time), consistent with the overall trend of the Republican vandalism skew diminishing after the George W. Bush era.
-
-#### Activity Span (Post-2008)
-
-For vandals with 2+ edits (192,895 vandals, 46.9% of post-2008 total):
-
-| Statistic | Value |
-|---|---|
-| Mean active window | 193.9 days |
-| Median active window | 0.1 hours |
-| Q1 | 0.0 hours |
-| Q3 | 2.3 days |
-| Max | 18.08 years |
-
-| Category | Count | % |
-|---|---|---|
-| One-day vandals (active <= 24 hrs) | 140,837 | 73.0% |
-| Long-term vandals (active > 1 year) | 19,909 | 10.3% |
-
-| Type | Mean Active Span | Median Active Span |
-|---|---|---|
-| Anonymous (2+ edits) | 69.3 days | 0.0 hours |
-| Registered (2+ edits) | 1.27 years | 5.1 hours |
-
-The activity span patterns are remarkably consistent with the all-time data. About 73% of multi-edit vandals are active for less than 24 hours in both eras. Registered vandals still persist far longer (mean 1.27 years vs. 69.3 days for anonymous). Interestingly, the median registered span is higher post-2008 (5.1 hours vs. 2.6 hours), possibly because modern editors engage in longer, more sustained content disputes.
-
-#### Page Diversity (Post-2008)
-
-| Pages Targeted | Vandals | % |
-|---|---|---|
-| 1 page | 360,968 | 87.8% |
-| 2--5 pages | 41,541 | 10.1% |
-| 5+ pages | 8,570 | 2.1% |
-
-#### Top 10 Most Prolific Registered Vandals (Post-2008) -- Detailed Profiles
-
-| Rank | Username | Type | Edits | Pages | HHI | Primary Focus | Active Span |
-|---|---|---|---|---|---|---|---|
-| 1 | ClueBot NG | BOT | 7,714 | 1,297 | 0.3320 | Balanced (R 37.8%, O 31.3%, D 30.2%) | 15.25 years |
-| 2 | Anythingyouwant | Editor | 4,787 | 59 | 0.7870 | Republican (88.3%) -- Trump, McCain | 17.77 years |
-| 3 | ClueBot | BOT | 4,362 | 569 | 0.3344 | Balanced (D 35.3%, O 34.5%, R 30.2%) | 2.92 years |
-| 4 | Hoppyh | Editor | 3,933 | 43 | 0.3738 | Balanced (D 41.7%, R 41.4%, O 16.9%) | 14.99 years |
-| 5 | Rjensen | Editor | 3,882 | 229 | 0.3343 | Balanced (R 35.5%, D 33.4%, O 31.1%) | 17.84 years |
-| 6 | GoodDay | Editor | 3,533 | 732 | 0.4244 | Balanced (D 48.7%, R 42.4%) | 18.03 years |
-| 7 | Wasted Time R | Editor | 3,401 | 50 | 0.5664 | Democrat (68.4%) -- Clinton, Biden | 13.53 years |
-| 8 | John Foxe | Editor | 3,035 | 8 | 0.9889 | Other (99.4%) -- Joseph Smith | 17.25 years |
-| 9 | Ser Amantio di Nicolao | Editor | 2,872 | 2,258 | 0.3396 | Balanced (D 38.7%, R 33.9%, O 27.3%) | 17.87 years |
-| 10 | AnomieBOT | BOT | 2,838 | 956 | 0.3629 | Balanced (R 47.7%, D 31.1%, O 19.6%) | 17.39 years |
-
-The post-2008 top 10 further reinforces the pattern. Two of the top three are anti-vandalism bots (ClueBot NG and ClueBot). The remaining eight are all long-term editors active for 13--18 years each. Several (Rjensen, Hoppyh, GoodDay, Ser Amantio di Nicolao) have near-balanced HHI scores (~0.33--0.42), indicating they edit broadly across the political spectrum -- a hallmark of dedicated Wikipedia editors rather than partisan vandals. John Foxe is an extreme specialist with 99.4% of edits on the Joseph Smith page, clearly engaged in a content dispute on that single article over 17 years. Ser Amantio di Nicolao stands out for targeting 2,258 unique pages -- more than any other editor -- with a maximum of only 22 edits on any single page (Kamala Harris), indicating broad encyclopedic maintenance activity rather than targeted vandalism.
-
-#### Anon vs. Registered Comparison (Post-2008)
-
-| Metric | Anonymous | Registered |
-|---|---|---|
-| Unique vandals | 302,269 | 108,810 |
-| Total edits | 666,726 | 807,290 |
-| Mean edits/vandal | 2.21 | 7.42 |
-| Median edits/vandal | 1.0 | 2.0 |
-| Mean pages/vandal | 1.17 | 2.71 |
-| Mean HHI (party focus) | 0.9786 | 0.9162 |
-| One-and-done rate | 56.4% | 43.8% |
-| Mean active span (2+ edits) | 69.3 days | 1.27 years |
-
-The post-2008 anonymous one-and-done rate (56.4%) is notably higher than the all-time rate (50.1%), suggesting Wikipedia's modern defenses are more effective at discouraging anonymous repeat vandalism. Registered vandals are even more prolific relative to anonymous ones post-2008 (7.42 vs. 2.21 edits, a 3.4x ratio) compared to all-time (10.18 vs. 2.90, a 3.5x ratio), though the gap remains substantial.
+This is why editors like Rjensen, MONGO, and Shanes appear so prominently -- they are prolific editors whose content contributions were reverted during long-running content disputes, particularly on the George W. Bush article, which was the most contentiously edited political page in Wikipedia history. Similarly, ClueBot NG and ClueBot appear because their automated reverts sometimes get re-reverted by other editors, creating the same hash-matching pattern. This is an inherent trade-off of hash-based vandalism detection: it excels at finding instances where content was reverted (high recall), but cannot distinguish between malicious vandalism and legitimate editorial disagreement (lower precision). Fortunately, these false positives are concentrated among a small number of prolific registered accounts and represent a tiny fraction of the 564,509 unique vandal entities, so the overall patterns and statistical findings remain valid.
 
 ---
 
@@ -510,4 +343,4 @@ This analysis examined 2,684,002 vandalism events across 75,503 US politician Wi
 
 **On vandals themselves:** The typical Wikipedia political vandal is anonymous (74.6%), targets a single politician page (86.4%) belonging to a single party (90.4%), makes 1--2 edits in a single session lasting minutes, and never returns. This profile matches the "drive-by vandal" archetype -- someone who impulsively defaces an article and moves on. The rare persistent vandals (10.1% active for over a year) are overwhelmingly registered accounts, many of whom are better described as passionate editors embroiled in content disputes rather than malicious actors. Anti-vandalism bots like ClueBot NG, while invaluable to Wikipedia's moderation infrastructure, are themselves caught by hash-based detection because their automated reverts create the same SHA1 patterns as vandalism-and-restoration cycles. This false-positive phenomenon is concentrated among a small number of prolific accounts and does not materially affect the aggregate statistical findings, but it highlights the fundamental challenge of distinguishing editorial disagreement from malicious intent using content hashes alone.
 
-**On Wikipedia's improving defenses:** Modern median restoration times have fallen from hundreds of hours to under 12 hours, the one-and-done rate has risen from 47.5% to 53.1%, and overall vandalism volume is declining year over year. Wikipedia's layered defense system -- combining automated bots, human watchlists, and page protection policies -- is demonstrably more effective in the post-2008 era.
+**On Wikipedia's improving defenses:** Modern median restoration times have fallen from hundreds of hours to under 12 hours, and overall vandalism volume is declining year over year. Wikipedia's layered defense system -- combining automated bots, human watchlists, and page protection policies -- is demonstrably more effective in the post-2008 era.
